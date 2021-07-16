@@ -17,5 +17,6 @@ const brandsList = () => {
 }
 
 module.exports = {
-    carsList
+    carsList,
+    brandsList
 }
