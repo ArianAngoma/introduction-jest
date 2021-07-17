@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --env=node",
     "test:coverage": "jest --coverage"
   },
   "author": "Arian Angoma Vilchez",
@@ -13,6 +13,7 @@
     "jest": "^27.0.6"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "xmlhttprequest": "^1.8.0"
   }
 }
